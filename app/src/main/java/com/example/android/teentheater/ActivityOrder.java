@@ -80,11 +80,11 @@ public class ActivityOrder extends AppCompatActivity {
             if (ischeckBoxShare){
                 String s2 = getString(R.string.text5);
                 if (selected == 1)
-                    s2 += " " + getString(R.string.perf1);
+                    s2 += " " + getString(R.string.perf1)+ ".";
                 if (selected == 2)
-                    s2 += " " + getString(R.string.perf2);
+                    s2 += " " + getString(R.string.perf2) + ".";
                 if (selected == 3)
-                    s2 += " " + getString(R.string.perf3);
+                    s2 += " " + getString(R.string.perf3) + ".";
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.putExtra(Intent.EXTRA_TEXT, s2);
