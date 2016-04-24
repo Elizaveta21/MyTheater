@@ -83,6 +83,7 @@
                 android:onClick="decrement"
                 android:layout_toRightOf="@+id/count"
                 android:text="-"
+                android:layout_marginRight="8dp"
                 android:textStyle="bold"
                 android:textColor="#FFB71C1C"/>
 
