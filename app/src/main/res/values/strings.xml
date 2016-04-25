@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name" translatable="false">TeenTheater</string>
+    <string name = "name_theater">Teen Theater</string>
+    <string name = "text_of_theater"> The opening of the theater took place on 16 December 1899.
+        In 1929 he settled here Theatre of the Working Youth (TRAM). A few months later,
+        a graduate of the Moscow Theatre Institute (later GITIS), directed by Anna Nesterova
+        founded the Youth Theatre.
+        After the war, in a building on Freedom Square received a registration Rostov theater
+        comedy, transformed in 1957 in the Youth Drama Theatre. Lenin Komsomol. The official date
+        of the creation of Youth Theater of the Lenin Komsomol considered to February 23, 1964,
+        the first premiere - the play "Chapaёnok".
+         Religious performances were such plays as "Hamlet" by William Shakespeare,
+        "Three Sisters" by Anton Chekhov, "Dogs" A.Chutko, L.Sergienko, "Pugachev" Yesenin.
+        The best performances of the theater saw the audience in Germany, France, Denmark, Italy,
+        Mexico, Poland, Turkey, Japan and other countries.
+        In 1997, the theater received the title of Academic, and in 2001 - became known as the
+        Rostov-on-Don Regional Academic Theatre for Youth.</string>
+    <string name="perf1"> Locust</string>
+    <string name="perf2"> Declaration of love</string>
+    <string name="perf3"> A very simple story</string>
+    <string name="more_perf"> More</string>
+    <string name="rep">Repertoire on may:</string>
+    <string name="date">Reserve tickets </string>
+    <string name ="perf1_text"> This returns the viewer to play the romantic 50s.
+        Sea surf, steamers lights, forever young, sunny Odessa and sounding above all
+        this voice Utesova "... in the Black Sea ...". The action develops in the maelstrom of acute,
+        ingenious jokes, funny transshipments where young heroes dream of a boundless sea
+        open spaces, trials of friendship and love.</string>
+    <string name="perf2_text"> How can a declaration of love to express their feelings and emotions,
+        without saying a word? There are many different ways, but the most sensual and soulful of them
+        - it is plastic body. Dance language is universal - it is clear to any person, regardless of
+        gender, age, nationality or status. Dance does not tolerate hypocrisy, only after you will
+        understand and will live every emotion and energy of each movement, you can feel the ease
+        and love, the state of mind, when you want to fly, run and do not stop when you want to hug
+        a loved one, and will not let go.
+        Plunge into this storm of emotions easily - we need only take a deep breath and feel the
+        atmosphere of love and temptation.</string>
+    <string name="perf3_text"> The play is a parable, which tells about the thin line between
+        good and evil, about the dangerous proximity of love and death. The fact that people are
+        sometimes more violent to each other than animals. And animals, on the other hand, are
+        capable of self-sacrifice for the sake of those who are dear to them. Let it even unborn
+        child masters daughter ...</string>
+    <string-array name="perfomances">
+        <item>Select perfomance</item>
+        <item>Locust</item>
+        <item>Declaration of love</item>
+        <item>A very simple story</item>
+    </string-array>
+    <string name="tickets"> Number of tickets \n(No more than 15 tickets can be booked)</string>
+    <string name="notif"> To recieve a notification about upcoming premieres </string>
+    <string name="soc_net">View site theater</string>
+    <string name="soc">Share</string>
+    <string name="sec_name">Enter the first-name</string>
+    <string name="fir_name">Enter the second-name</string>
+    <string name="phone">Enter the phone</string>
+    <string name="e_mail">Enter the email</string>
+    <string name="ord">Reserve</string>
+    <string name="text2">Your reservation is accepted, the code will be sent for email, also to the
+        specified number will call the operator to confirm, will be glad to see you in our theater.</string>
+    <string name="text3">Also, your email will be sent a notification about new premieres in our theater.</string>
+    <string name="text4">All fields are required.</string>
+    <string name="text5">I booked tickets on </string>
+    <string name="text6">The premiere will take place </string>
+    <string name="text7">Premiere through </string>
+</resources>
