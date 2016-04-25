@@ -30,7 +30,7 @@ public class ActivityOrder extends AppCompatActivity {
         spinner = (Spinner) findViewById(R.id.perf);
     }
 
-    int number_tic;
+    int numberTic;
     boolean order = false;
     CheckBox checkBoxNotif;
     CheckBox checkBoxShare;
@@ -45,9 +45,9 @@ public class ActivityOrder extends AppCompatActivity {
      * Вызывается, когда жмём на кнопку увеличения количества.
      */
     public void increment(View view) {
-        if (number_tic < 15) {
-            number_tic++;
-            display(number_tic);
+        if (numberTic < 15) {
+            numberTic++;
+            display(numberTic);
         }
     }
 
@@ -55,9 +55,9 @@ public class ActivityOrder extends AppCompatActivity {
      * Вызывается, когда жмём на кнопку уменьшения количества.
      */
     public void decrement(View view) {
-        if (number_tic > 0) {
-            number_tic--;
-            display(number_tic);
+        if (numberTic > 0) {
+            numberTic--;
+            display(numberTic);
         }
     }
 
@@ -73,8 +73,8 @@ public class ActivityOrder extends AppCompatActivity {
         final boolean ischeckBoxNotif = checkBoxNotif.isChecked();
         final boolean ischeckBoxShare = checkBoxShare.isChecked();
         int selected = spinner.getSelectedItemPosition();
-        if (personFirstName.getText().toString() != "" && personSecondName.getText().toString() != ""
-                && personPhone.getText().toString() != "" && personMail.getText().toString() != "" && selected != 0 && number_tic != 0) {
+        if (!personFirstName.getText().toString().equals("") && !personSecondName.getText().toString().equals("")
+                && !personPhone.getText().toString().equals("") && !personMail.getText().toString().equals("") && selected != 0 && numberTic != 0) {
             if (ischeckBoxNotif)
                 s += getString(R.string.text3);
             if (ischeckBoxShare){
@@ -89,7 +89,8 @@ public class ActivityOrder extends AppCompatActivity {
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.putExtra(Intent.EXTRA_TEXT, s2);
                 sendIntent.setType("text/plain");
-                startActivity(sendIntent);
+                if (sendIntent.resolveActivity(getPackageManager()) != null)
+                    startActivity(sendIntent);
             }
             textView.setTextColor(Color.GRAY);
             textView.setText(s);

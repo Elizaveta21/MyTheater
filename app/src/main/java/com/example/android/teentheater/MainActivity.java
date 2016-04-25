@@ -42,10 +42,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void click_site(View view) {
+    public void clickSite(View view) {
         Uri address = Uri.parse("http://www.svoboda-3.ru");
         Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, address);
-        startActivity(openlinkIntent);
+        if (openlinkIntent.resolveActivity(getPackageManager()) != null)
+            startActivity(openlinkIntent);
     }
 
 }

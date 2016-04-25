@@ -42,7 +42,6 @@
             android:entries="@array/perfomances"
             android:layout_marginTop="8dp"
             android:textColor="#FFB71C1C"
-            android:textSize = "25dp"
             android:layout_marginBottom="8dp">
         </Spinner>
 
@@ -83,7 +82,8 @@
                 android:onClick="decrement"
                 android:layout_toRightOf="@+id/count"
                 android:text="-"
-                android:layout_marginRight="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="8dp"
                 android:textStyle="bold"
                 android:textColor="#FFB71C1C"/>
 
@@ -94,6 +94,7 @@
                 android:layout_height="48dp"
                 android:onClick="increment"
                 android:layout_toRightOf="@+id/neg"
+                android:layout_marginLeft="4dp"
                 android:text="+"
                 android:textStyle="bold"
                 android:textColor="#FFB71C1C"/>
